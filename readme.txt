@@ -1,0 +1,1 @@
+can you write the react code with the css for the image
