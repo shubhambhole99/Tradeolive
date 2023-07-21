@@ -29,7 +29,7 @@ export const Home=()=>{
             <h1 style={{paddingTop:'2%'}}>Find Us On</h1>
             <p>priyanshoo shirsat has a strong community of 1000+ followers across all social media platforms</p>
             <div id='icons'>
-                <img id='Youtube' src={youtube}></img>
+                <img onClick={()=>{window.open('https://www.youtube.com/', '_blank')}} id='Youtube' src={youtube}></img>
                 <img id='Instagram' src={instagram}></img>
                 <img id='Twitter' src={twitter}></img>
                 <img id='LinkedIn' src={linkedin}></img>
