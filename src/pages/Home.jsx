@@ -25,6 +25,8 @@ export const Home=()=>{
         <div id='author'>
             <h1>priyanshoo shirsat</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia recusandae, iste, qui commodi sunt a, eaque consequuntur quibusdam perspiciatis odio deleniti dolor. Tempora maxime expedita neque dolor ea iure quod.</p>
+            <img src="https://i0.wp.com/ankurwarikoo.com/wp-content/uploads/2022/05/Logo_Black_Vector.png?fit=300%2C171&ssl=1"></img> 
+
         </div>
         <div id='social-media'>
             <h1 style={{paddingTop:'2%'}}>Find Us On</h1>
