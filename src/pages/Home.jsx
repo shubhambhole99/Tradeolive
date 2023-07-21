@@ -39,10 +39,7 @@ export const Home=()=>{
         <div id='courses'>
             <p>Courses</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, dicta minima provident eveniet sunt sed praesentium voluptatem</p>
-            {/* Will convert to Map Later */}
-          
             <Carousel></Carousel> 
-   
       </div>
      
       </> 
