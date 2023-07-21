@@ -108,7 +108,7 @@ export const Carousel=()=> {
             rotate: 5,
             stretch: 10,
             depth: 120,
-            modifier: 3,
+            modifier: 5,
           }}
           pagination={{ el: ".swiper-pagination", clickable: true }}
           navigation={{
@@ -167,6 +167,4 @@ export const Carousel=()=> {
             <div className="swiper-pagination"></div>
           </div>
         </Swiper>
-        <hr id="hor_line1"></hr>
-    
       </>)}

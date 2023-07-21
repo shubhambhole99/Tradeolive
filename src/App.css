@@ -116,9 +116,10 @@ left:40%;
 /* ===========================  */
 
 #courses{
+  /* border:1px solid red; */
   color: black;
   margin: auto;
-  height: 400px;
+  /* height: 400px; */
 
   text-align: center;
 
