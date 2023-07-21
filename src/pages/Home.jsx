@@ -2,6 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
 import {Navbar} from '../Components/Navbar'
 import {Carousel} from '../Components/Carousel'
+import instagram from '../assets/instagram.png'
+import facebook from '../assets/facebook.png'
+import linkedin from '../assets/linkedin.png'
+import twitter from '../assets/twitter.png'
+import youtube from '../assets/youtube.png'
 
 
 
@@ -24,11 +29,11 @@ export const Home=()=>{
             <h1 style={{paddingTop:'2%'}}>Find Us On</h1>
             <p>priyanshoo shirsat has a strong community of 1000+ followers across all social media platforms</p>
             <div id='icons'>
-                <img id='Youtube' src="src/assets/youtube.png"></img>
-                <img id='Instagram' src="src/assets/instagram.png"></img>
-                <img id='Twitter' src="src/assets/twitter.png"></img>
-                <img id='LinkedIn' src="src/assets/linkedin.png"></img>
-                <img id='Facebook' src="src/assets/facebook.png"></img>
+                <img id='Youtube' src={youtube}></img>
+                <img id='Instagram' src={instagram}></img>
+                <img id='Twitter' src={twitter}></img>
+                <img id='LinkedIn' src={linkedin}></img>
+                <img id='Facebook' src={facebook}></img>
                 <h2>Youtube</h2>
                 <h2>Instagram</h2>
                 <h2>Twitter</h2>
