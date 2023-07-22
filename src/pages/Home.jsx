@@ -12,6 +12,9 @@ import youtube from '../assets/youtube.png'
 
 
 export const Home=()=>{
+  const id='ham'
+
+
     return (
         <>
         <Navbar></Navbar>
@@ -24,6 +27,7 @@ export const Home=()=>{
         </div>
         <div id='author'>
             <h1>priyanshoo shirsat</h1>
+          
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia recusandae, iste, qui commodi sunt a, eaque consequuntur quibusdam perspiciatis odio deleniti dolor. Tempora maxime expedita neque dolor ea iure quod.</p>
             <img src="https://i0.wp.com/ankurwarikoo.com/wp-content/uploads/2022/05/Logo_Black_Vector.png?fit=300%2C171&ssl=1"></img> 
 
