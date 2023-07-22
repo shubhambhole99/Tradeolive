@@ -197,7 +197,8 @@ cursor: pointer;
 #nav-menu{
   /* border: 1px solid red; */
    /* display: flex; */
-   top: 0px;
+   top: -1.5px;
+
    /* position:sticky; */
    width: 100%;
    /* margin: auto; */
@@ -227,7 +228,7 @@ cursor: pointer;
    /* border: 1px solid red; */
   font-size: 25px;
 /* margin-top: 10px; */
-margin-left: -25%;
+margin-left: -15%;
 transition: all 1s ease-in 0s;
 /* transition: margin-left 1s ease-in 0s; */
 }

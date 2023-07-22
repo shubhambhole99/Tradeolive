@@ -79,6 +79,43 @@ ul {
   
   }
   @media only screen and (min-width:300px) and (max-width:650px){
-   
+    #footer-menu{
+      width:100%;
+      /* border:1px solid red; */
+      /* margin: auto; */
+      font-size: 10px;
+      padding: 0;
+      margin-left: 0%;
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+      background-color:#222222 ;
+      color:rgb(180, 180, 180);
+      /* height:200px; */
+  }
+  #footer-menu>img{
+    display: none;
+      /* border:1px solid red; */
+      /* margin-right: -70%; */
+      /* width: 120%; */
+      margin:10% 0% 0% 4%;
+  }
+  li {
+    position: relative; /* Needed to position the ::before pseudo-element */
+    /* padding: 5px; */
+    transition: all 0.5s ease-in 0s;
+    padding-left: 10px; /*Add some spacing between the bullet and text */
+  }
+  li::before {
+    content: ''; /* Add an empty content to the ::before pseudo-element */
+    position: absolute; /* Position the bullet relative to the list item */
+    top: 50%; /* Adjust the vertical position of the bullet */
+    left: 0; /* Position the bullet at the left edge of the list item */
+    transform: translate(-100%, -50%); /* Center the bullet vertically */
+    width: 4px; /* Set the width of the bullet */
+    height: 4px; /* Set the height of the bullet */
+    background-color: #4d7bfb; /* Change the color of the bullet */
+    border-radius: 50%; /* Make the bullet round */
+  }
+    
     
     }

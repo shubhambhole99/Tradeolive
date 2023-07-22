@@ -106,9 +106,11 @@ export const Carousel=()=> {
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 5,
-            stretch: 10,
+            //10
+            stretch: 30,
             depth: 120,
-            modifier: 5,
+            //5
+            modifier: 6,
           }}
           pagination={{ el: ".swiper-pagination", clickable: true }}
           navigation={{
