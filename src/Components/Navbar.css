@@ -31,7 +31,7 @@ a:hover{
   display: flex;
   justify-content: space-between;
   margin: auto;
-  margin-top: -3%;
+  /* margin-top: -8%; */
   box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
   /* align-content: space-between;
   justify-items: flex-end;
@@ -43,7 +43,7 @@ a:hover{
   /* Sticky */
   position: -webkit-sticky; /* Safari */
 position: sticky;
-top: -0.5px;
+/* top: 2px; */
 /* ends */
 transition: all 1s ease-in 0s;
 
@@ -98,10 +98,13 @@ cursor: pointer;
 }
 #colmain{
 /* display: none; */
-opacity: 0;
-height: 0px;
-margin-top: -30%;
-transition: all 1s ease-in 0s;
+/* border:1px solid red; */
+height: 400px;
+margin-top: -180%;
+/* opacity: 0; */
+transition: all 2s ease;
+
+/* transition: all 0.8s ease-in; */
 
 
   /* transition: all 0.5s; */
@@ -113,7 +116,7 @@ transition: all 1s ease-in 0s;
 } */
 
 #top>p{
-  margin-top: -3000px;
+  /* margin-top: -3000px; */
   /* margin: auto; */
   /* margin-left: 5000px; */
   /* color: green; */
@@ -126,7 +129,8 @@ transition: all 1s ease-in 0s;
 
 #nav-menu{
   /* display: flex; */
-  top: 0px;
+  top: -1.5px;
+  
   /* position:sticky; */
   width: 100%;
   /* margin: auto; */
@@ -164,8 +168,8 @@ cursor: pointer;
 #top{
   /* display: flex; */
   height: 320px;
-  transition: all 0.8s ease-out 0s;
-  position:relative;animation:animatetop 1s}@keyframes animatetop{from{top:-300px;opacity:1} to{top:0;opacity:1
+  transition: all 1s ease 0s;
+  position:relative;animation:animatetop 1s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1
   }
 }
 #top>p{
@@ -191,12 +195,13 @@ cursor: pointer;
 
 
 #nav-menu{
+  /* border: 1px solid red; */
    /* display: flex; */
    top: 0px;
    /* position:sticky; */
    width: 100%;
    /* margin: auto; */
-   /* height:5vh; */
+   /* height:80px; */
 }
 
 #nav-menu>div:nth-child(2){
@@ -205,6 +210,8 @@ cursor: pointer;
 
 }
 #ham{
+  /* border: 1px solid red; */
+
   display: block;
   width: 100px;
   height:80px;
@@ -218,7 +225,7 @@ cursor: pointer;
 #nav-menu>div>h1{
    color: rgb(200, 200, 200);
    /* border: 1px solid red; */
-  font-size: 15px;
+  font-size: 25px;
 /* margin-top: 10px; */
 margin-left: -25%;
 transition: all 1s ease-in 0s;

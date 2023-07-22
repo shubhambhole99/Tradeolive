@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import './Navbar.css'
+import hamburger from '../assets/Hamburger.png'
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,6 +15,7 @@ export const Navbar=()=> {
   let id1='ham';
   const [c, setC] = useState(0);
   const [Id, setId] = useState('colmain');
+  const [navId,setnavId]=useState('')
 
   // const [navMenuBackgroundColor, setNavMenuBackgroundColor] = useState('black');
 
@@ -33,9 +35,6 @@ export const Navbar=()=> {
 
   return (
     <>
-    <script src="https://kit.fontawesome.com/24c494a6b6.js"
-    crossOrigin="anonymous"
-  ></script>
   <div id="nav-menu">
     <div>
         <h1 id="name">TradeOlive</h1>
@@ -55,7 +54,7 @@ export const Navbar=()=> {
             <p><a onClick={dropdown} href="#contactss">Contact Me</a></p>
             {/* <p><a onClick="reload( 'https://drive.google.com/file/d/1yYYAZlUqVoNAhTUfC3xt4-WmE5Nauu5b/view?usp=share_link')" href="Shubham_Bhole_Resume.pdf" download="">Resume</a></p> */}
         </div>
-      <img id='ham' onClick={dropdown} style={{}}src='src/assets/Hamburger.png'></img>
+      <img id='ham' onClick={dropdown} style={{}} src={hamburger}></img>
         
     </div>
     </>

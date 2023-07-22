@@ -56,3 +56,29 @@ ul {
     /* height:40px; */
     text-align: center;
 }
+@media only screen and (min-width:650px) and (max-width:850px){
+  #footer-menu{
+    width:90%;
+    /* border:1px solid red; */
+    /* margin: auto; */
+    font-size: 14px;
+    padding: 0;
+    margin-left: -0%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color:#222222 ;
+    color:rgb(180, 180, 180);
+    /* height:200px; */
+}
+#footer-menu>img{
+    /* border:1px solid red; */
+    /* margin-right: -70%; */
+    /* width: 0%; */
+    margin:10% 0% 0% 4%;
+}
+  
+  }
+  @media only screen and (min-width:300px) and (max-width:650px){
+   
+    
+    }
