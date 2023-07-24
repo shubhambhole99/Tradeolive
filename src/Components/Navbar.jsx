@@ -42,15 +42,15 @@ export const Navbar=()=> {
         <h1 id="name">Trade-O-Live</h1>
     </div>
     <div id="main">
-        <p><Link to='/' className="custom-link" href="#front">Home</Link></p>
-        <p><Link to='/about' className="custom-link" href="#aboutss">About Me</Link></p>
+        <p><Link to='/' className="custom-link">Home</Link></p>
+        <p><Link to='/about' className="custom-link">About Me</Link></p>
         <p><a className="custom-link" href="#skillss"> Skills</a></p>
         <p><a className="custom-link" href="#projectss">Projects</a></p>
         <p><a className="custom-link" href="#contactss">Contact Me</a></p>
     </div>
     <div id={Id}>
-            <p><a onClick={dropdown} href="#front">Home</a></p>
-            <p><a onClick={dropdown} href="#aboutss">About Me</a></p>
+            <p><Link to='/' onClick={dropdown} >Home</Link></p>
+            <p><Link to='/about' onClick={dropdown} >About Me</Link></p>
             <p><a onClick={dropdown} href="#skillss">Skills</a></p>
             <p><a onClick={dropdown} href="#projectss">Projects</a></p>
             <p><a onClick={dropdown} href="#contactss">Contact Me</a></p>
