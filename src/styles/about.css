@@ -1,0 +1,229 @@
+/* =========================== */
+/* hero image */
+/* ===========================  */
+#hero-image-about{
+    /* border:1px solid red; */
+  
+    color:rgb(255, 255, 255);
+    /* height: 400px; */
+    background-color: rgb(51, 54, 56);
+     /* border: 1px solid red;*/
+    background-image: url("../assets/final.jpg");
+   /* background-color: #000000; */
+    height: 400px;
+    background-position: right; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+  }
+  #hero-image-about-text{
+  /* border:1px solid red; */
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif ; */
+
+  position: absolute;
+  text-align: left;
+  top:35%;
+  left:70%;
+  }
+  #hero-image-about-text p:nth-child(1){
+    font-size:2.8rem
+  }
+
+  @media only screen and (min-width:650px) and (max-width:900px){
+    #hero-image-about-text p:nth-child(1){
+      font-size:2.3rem
+    }
+    }
+  @media only screen and (min-width:300px) and (max-width:650px){
+    #hero-image-about-text{
+      /* border:1px solid red; */
+      /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif ; */
+      
+      position: absolute;
+      text-align: left;
+      top:35%;
+      left:10%;
+      }  
+    #hero-image-about-text p:nth-child(1){
+        font-size:2.3rem
+      }
+    
+      }
+/* =========================== */
+/* about us */
+/* ===========================  */
+#aboutus{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    width: 70%;
+    /* height: 250px; */
+    font-size: 20px;
+    margin: auto;
+    color: black;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    text-align: center;
+    font-weight: bolder;
+  }
+  #author>img{
+    /* width: 95%; */
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  @media only screen and (min-width:650px) and (max-width:850px){
+    #aboutus>img{
+      width: 80%;
+      /* border: 1px solid red; */
+      /* margin: auto; */
+    }
+    #aboutus{
+      /* border: 1px solid red; */
+      /* position: absolute; */
+      width: 80%;
+      /* height: 250px; */
+      font-size: 20px;
+      margin: auto;
+      color: black;
+      /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+      text-align: center;
+      font-weight: bolder;
+    }
+  }
+    @media only screen and (min-width:300px) and (max-width:650px){
+      #icons{
+        font-size: 10px;
+      
+      }
+      #aboutus{
+        /* border: 1px solid red; */
+        /* position: absolute; */
+        width: 80%;
+        /* height: 250px; */
+        font-size: 20px;
+        margin: auto;
+        color: black;
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        text-align: center;
+        font-weight: bolder;
+      }
+      #aboutus>img{
+        width:100%;
+        /* border: 1px solid red; */
+        /* margin: auto; */
+      }
+      
+      }
+/* =========================== */
+/* Vision */
+/* ===========================  */
+#vision{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    padding-top: 1%;
+    line-height: 40px;
+    width: 100%;
+    background-color:#1551f8 ;
+    /* height: 250px; */
+    font-size: 18px;
+    margin: auto;
+    color: azure;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    text-align: center;
+    font-weight: bolder;
+  }
+  #vision>p{
+    margin: auto;
+    /* text-align: justify; */
+    width: 70%;
+  }
+  @media only screen and (min-width:650px) and (max-width:850px){
+
+    #vision{
+      /* border: 1px solid red; */
+      /* position: absolute; */
+      width: 80%;
+      /* height: 250px; */
+      font-size: 20px;
+      margin: auto;
+      color: black;
+      /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+      text-align: center;
+      font-weight: bolder;
+    }
+  }
+    @media only screen and (min-width:300px) and (max-width:650px){
+      #icons{
+        font-size: 10px;
+      
+      }
+      #vision{
+        /* border: 1px solid red; */
+        /* position: absolute; */
+        width: 80%;
+        /* height: 250px; */
+        font-size: 20px;
+        margin: auto;
+        color: black;
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        text-align: center;
+        font-weight: bolder;
+      }
+   
+      
+      }
+/* =========================== */
+/* Mission */
+/* ===========================  */
+#mission{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    padding-top: 1%;
+    line-height: 40px;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    /* color: azure; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    text-align: center;
+    font-weight: bolder;
+  }
+  #mission>p{
+    margin: auto;
+    /* text-align: justify; */
+    width: 80%;
+  }
+  @media only screen and (min-width:650px) and (max-width:850px){
+
+    #mission{
+      /* border: 1px solid red; */
+      /* position: absolute; */
+      width: 80%;
+      /* height: 250px; */
+      font-size: 20px;
+      margin: auto;
+      color: black;
+      /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+      text-align: center;
+      font-weight: bolder;
+    }
+  }
+    @media only screen and (min-width:300px) and (max-width:650px){
+      #icons{
+        font-size: 10px;
+      
+      }
+      #mission{
+        /* border: 1px solid red; */
+        /* position: absolute; */
+        width: 80%;
+        /* height: 250px; */
+        font-size: 20px;
+        margin: auto;
+        color: black;
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        text-align: center;
+        font-weight: bolder;
+      }
+   
+      
+      }

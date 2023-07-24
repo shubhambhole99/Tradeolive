@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
 import {Link} from 'react-router-dom';
+import '../styles/home.css';
 import {Navbar} from '../Components/Navbar'
 import {Carousel} from '../Components/Carousel'
 import {Footer} from '../Components/Footer'
