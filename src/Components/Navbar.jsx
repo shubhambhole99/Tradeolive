@@ -39,7 +39,7 @@ export const Navbar=()=> {
     <>
   <div id="nav-menu">
     <div>
-        <h1 id="name">TradeOlive</h1>
+        <h1 id="name">Trade-O-Live</h1>
     </div>
     <div id="main">
         <p><Link to='/' className="custom-link" href="#front">Home</Link></p>

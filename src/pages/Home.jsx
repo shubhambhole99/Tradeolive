@@ -30,13 +30,13 @@ export const Home=()=>{
         <div id='author'>
             <h1>priyanshoo shirsat</h1>
           
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia recusandae, iste, qui commodi sunt a, eaque consequuntur quibusdam perspiciatis odio deleniti dolor. Tempora maxime expedita neque dolor ea iure quod.</p>
+            <p>Trade-O-Live is a community by traders and for traders that wish to learn, grow and evolve in the world of stocks and investments. Incorporated in June 2021, we’re an abode of young minds and progressive thinkers that are here to share with like-minds the success formula and knowledge of money-making through stock trading and investments.</p>
             <img src="https://i0.wp.com/ankurwarikoo.com/wp-content/uploads/2022/05/Logo_Black_Vector.png?fit=300%2C171&ssl=1"></img> 
 
         </div>
         <div id='social-media'>
             <h1 style={{paddingTop:'2%'}}>Find Us On</h1>
-            <p>priyanshoo shirsat has a strong community of 1000+ followers across all social media platforms</p>
+            <p>Trade-O-Live has a strong community of 1000+ followers across all social media platforms</p>
             <div id='icons'>
                 <img onClick={()=>{window.open('https://www.youtube.com/', '_blank')}} id='Youtube' src={youtube}></img>
                 <img id='Instagram' src={instagram}></img>
@@ -54,7 +54,7 @@ export const Home=()=>{
         </div>
         <div id='courses'>
             <p>Courses</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, dicta minima provident eveniet sunt sed praesentium voluptatem</p>
+            <p>Get started with your trading journey with our knowledged packed courses</p>
             <Carousel></Carousel> 
         </div>
         <Footer></Footer>
