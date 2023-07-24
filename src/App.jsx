@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" Component={Home}/>
-        <Route path="/about" Component={About}/>
+        <Route exact path="/about" Component={About}/>
       </Routes>
     </Router>
 
