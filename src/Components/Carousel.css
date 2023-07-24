@@ -9,7 +9,7 @@
 } */
 
 :root {
-  --primary: #6a59ff;
+  --primary: #1551f8;
   --white: #ffffff;
   --bg: #f5f5f5;
 }
@@ -163,7 +163,7 @@
 
 .slider-controler .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #222224;
+  color: #1551f8;
 }
 
 .slider-controler .slider-arrow::after {
@@ -206,8 +206,23 @@
     /* background-color: rgb(97, 97, 97); */
   
   }
-  .slider-arrow{
-    display: none;
+  .slider-controler .slider-arrow {
+    /* background-color: green; */
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: -3%;
+    border-radius: 50%;
+}
+.swiper-button-next{
+  margin-left: 4%;
+}
+.swiper-button-prev{
+  margin-left: -4%;
+}
+
+ 
+.arrow-forward-outline{
+    color:blue;
   }
  
   @media only screen and (min-width:300px) and (max-width:650px){
@@ -230,6 +245,13 @@
         width: 27.8rem !important;
         height: 50rem !important;
       }
+      .slider-controler .slider-arrow {
+        background-color: rgb(225, 225, 225);
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-top: -6%;
+        border-radius: 50%;
+    }
       /* .swiper-slide img {
         width: 28rem !important;
         height: 36rem !important;

@@ -35,6 +35,7 @@ export const Home=()=>{
 
         </div>
         <div id='social-media'>
+
             <h1 style={{paddingTop:'2%'}}>Find Us On</h1>
             <p>Trade-O-Live has a strong community of 1000+ followers across all social media platforms</p>
             <div id='icons'>
