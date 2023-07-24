@@ -15,7 +15,7 @@ function App() {
 
   return (
     // <Home></Home>
-    <Router basename='/'>
+    <Router basename='https://resonant-monstera-a413f3.netlify.app/'>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
