@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
 import {Home} from './pages/Home'
+import {About} from './pages/About'
+
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import {Carousel} from './Components/Carousel'
 
@@ -12,7 +14,16 @@ function App() {
   
 
   return (
-    <Home></Home>
+    // <Home></Home>
+    <Router>
+      <Routes>
+        <Route path="/" Component={Home}/>
+        <Route path="/about" Component={About}/>
+      </Routes>
+    </Router>
+
+    
+    // <Carousel></Carousel>
    
   )
 }

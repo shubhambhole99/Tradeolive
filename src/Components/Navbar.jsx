@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import hamburger from '../assets/Hamburger.png'
+import {Link} from 'react-router-dom';
+
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -40,8 +42,8 @@ export const Navbar=()=> {
         <h1 id="name">TradeOlive</h1>
     </div>
     <div id="main">
-        <p><a className="custom-link" href="#front">Home</a></p>
-        <p><a className="custom-link" href="#aboutss">About Me</a></p>
+        <p><Link to='/' className="custom-link" href="#front">Home</Link></p>
+        <p><Link to='/about' className="custom-link" href="#aboutss">About Me</Link></p>
         <p><a className="custom-link" href="#skillss"> Skills</a></p>
         <p><a className="custom-link" href="#projectss">Projects</a></p>
         <p><a className="custom-link" href="#contactss">Contact Me</a></p>

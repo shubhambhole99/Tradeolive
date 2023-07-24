@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
+import {Link} from 'react-router-dom';
 import {Navbar} from '../Components/Navbar'
 import {Carousel} from '../Components/Carousel'
 import {Footer} from '../Components/Footer'
@@ -38,6 +39,8 @@ export const Home=()=>{
             <div id='icons'>
                 <img onClick={()=>{window.open('https://www.youtube.com/', '_blank')}} id='Youtube' src={youtube}></img>
                 <img id='Instagram' src={instagram}></img>
+        
+                
                 <img id='Twitter' src={twitter}></img>
                 <img id='LinkedIn' src={linkedin}></img>
                 <img id='Facebook' src={facebook}></img>
