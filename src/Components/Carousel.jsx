@@ -10,7 +10,7 @@ import "swiper/css/effect-creative";
 import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import './Carousel.css';
+import '../styles/Carousel.css';
 import {
   EffectCoverflow,
   EffectCube,

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './Navbar.css'
+import '../styles/Navbar.css'
 import hamburger from '../assets/Hamburger.png'
 import {Link} from 'react-router-dom';
 
