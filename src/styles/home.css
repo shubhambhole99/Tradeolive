@@ -20,25 +20,45 @@
   #hero-image-text{
   /* border:1px solid red; */
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif ; */
-  
+  /* width: 100%; */
   position: absolute;
   text-align: left;
   top:35%;
-  left:30%;
+  left:50%;
   }
   #hero-image-text p:nth-child(1){
     font-size:2.8rem
   }
   #hero-image-text p:nth-child(2){
     font-size:3.5rem;
-    margin-top:-7%;
+    margin-top:-16%;
   }
   #hero-image-text p:nth-child(3){
     color: rgb(203, 202, 202);
     font-size:1.5rem;
     margin-top:-6%;
   }
+  @media only screen and (min-width:900px) and (max-width:1800px){
+    #hero-image-text{
+      /* border:1px solid red; */
+      /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif ; */
+      /* width: 100%; */
+      position: absolute;
+      text-align: left;
+      top:30%;
+      left:45%;
+      }
+  }
   @media only screen and (min-width:650px) and (max-width:900px){
+    #hero-image-text{
+      /* border:1px solid red; */
+      /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif ; */
+      /* width: 100%; */
+      position: absolute;
+      text-align: left;
+      top:30%;
+      left:30%;
+      }
     #hero-image-text p:nth-child(1){
       font-size:2.3rem
     }

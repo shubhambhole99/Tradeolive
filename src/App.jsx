@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css';
 import {Home} from './pages/Home'
 import {About} from './pages/About'
+import {Contact} from './pages/Contact'
 
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import {Carousel} from './Components/Carousel'
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
+        <Route path="/contact" element={<Contact />}/>
       </Routes>
     </Router>
 

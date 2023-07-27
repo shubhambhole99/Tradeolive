@@ -24,7 +24,7 @@ export const Home=()=>{
             <div id='hero-image-text'>
             <p>Trade with</p>
             <p>Risk Management</p>
-            <p>Learn Trading is a manner which you have never learned before with proper Risk management Techniques</p>
+            <p>Learn Trading is a manner which you <br/>have never learned before with proper <br/>Risk management Techniques</p>
             </div>
         </div>
         <div id='author'>
