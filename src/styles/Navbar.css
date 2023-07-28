@@ -143,10 +143,15 @@ transition: all 2s ease;
 
 }
 #ham{
+  display: inline-block;
+  margin-top: 2%;
+  margin-right: 4%;
+}
+/* #ham{
   display: block;
   width: 100px;
   height:80px;
-}
+} */
 #ham:hover{
  cursor: pointer;
 }
@@ -212,12 +217,18 @@ cursor: pointer;
 
 }
 #ham{
-  /* border: 1px solid red; */
+  display: inline-block;
+
+  margin-top: 2%;
+  margin-right: 4%;
+}
+ /* #ham{
+  
 
   display: block;
   width: 100px;
   height:80px;
-}
+}  */
 #ham:hover{
   cursor: pointer;
 }

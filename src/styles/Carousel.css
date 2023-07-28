@@ -206,18 +206,21 @@
     /* background-color: rgb(97, 97, 97); */
   
   }
+  .swiper-pagination,.swiper-pagination-clickable,.swiper-pagination-bullets,.swiper-pagination-horizontal {
+    margin-top: 1%;
+  } 
   .slider-controler .slider-arrow {
     /* background-color: green; */
     width: 3.5rem;
     height: 3.5rem;
-    margin-top: -3%;
+    /* margin-top: -2%; */
     border-radius: 50%;
 }
 .swiper-button-next{
-  margin-left: 4%;
+  margin-left: 2%;
 }
 .swiper-button-prev{
-  margin-left: -4%;
+  margin-left: -2%;
 }
 
  
