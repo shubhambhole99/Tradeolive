@@ -218,8 +218,12 @@ cursor: pointer;
 }
 #ham{
   display: inline-block;
-
-  margin-top: 2%;
+  /* border: 1px solid red; */
+  /* width: 100%; */
+  position: absolute;
+  left: 85%;
+  top:20%;
+  /* margin-top: 4%; */
   margin-right: 4%;
 }
  /* #ham{
@@ -233,7 +237,9 @@ cursor: pointer;
   cursor: pointer;
 }
 #ham>a{
-  font-size: 10px;
+  /* margin-top: 3%; */
+  /* border: 1px solid red; */
+  font-size: 15px;
 }
 #nav-menu>div>h1{
    color: rgb(200, 200, 200);

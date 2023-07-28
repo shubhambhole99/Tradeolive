@@ -56,7 +56,7 @@ export const Navbar=()=> {
            {/* <p><a onClick="reload( 'https://drive.google.com/file/d/1yYYAZlUqVoNAhTUfC3xt4-WmE5Nauu5b/view?usp=share_link')" href="Shubham_Bhole_Resume.pdf" download="">Resume</a></p> */}
         </div>
         <div onClick={dropdown} id="ham">
-            <a><i style={{color:'azure',fontSize:'30px'}} className="fa-sharp fa-solid fa-bars"></i></a> 
+            <i style={{color:'azure',fontSize:'40px'}} className="fa-sharp fa-solid fa-bars"></i> 
         </div>
       {/* <img id='ham' onClick={dropdown} style={{}} src={hamburger}></img> */}
         
