@@ -27,7 +27,7 @@
     height: 600px;
     font-size: 18px;
     background-position: left; 
-    /* background-attachment: ; */
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;  

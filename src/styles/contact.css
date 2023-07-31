@@ -16,7 +16,7 @@
     height: 400px;
     font-size: 18px;
     background-position: 0px -200px; 
-    /* background-attachment: ; */
+    background-attachment:fixed ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;  
@@ -84,10 +84,6 @@
 /* =========================== */
 /* Form */
 /* ===========================  */
-#formus{
-    
-    /* border: 1px solid red; */
-}
 .form-container {
     /* border: 1px solid red; */
         position: absolute;

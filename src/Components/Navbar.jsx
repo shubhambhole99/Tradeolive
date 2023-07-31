@@ -46,12 +46,14 @@ export const Navbar=()=> {
         <p><Link to='/about' className="custom-link">About Us</Link></p>
         <p><Link to='/contact' className="custom-link">Contact Us</Link></p>
         <p><Link to='/courses' className="custom-link">Courses</Link></p>
+        <p><Link to='/booknow' className="custom-link">Book Now</Link></p>
     </div>
     <div id={Id}>
     <p><Link to='/' className="custom-link">Home</Link></p>
         <p><Link to='/about' className="custom-link">About Us</Link></p>
         <p><Link to='/contact' className="custom-link">Contact Us</Link></p>
         <p><Link to='/courses' className="custom-link">Courses</Link></p>
+        <p><Link to='/booknow' className="custom-link">Book Now</Link></p>
 
            {/* <p><a onClick="reload( 'https://drive.google.com/file/d/1yYYAZlUqVoNAhTUfC3xt4-WmE5Nauu5b/view?usp=share_link')" href="Shubham_Bhole_Resume.pdf" download="">Resume</a></p> */}
         </div>

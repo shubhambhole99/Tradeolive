@@ -47,7 +47,7 @@ export const Contact=()=>{
         </form>
         </div>
         </div>
-        <div id='contact'>
+    <div id='contact'>
         <div>
             <h1>Follow us on Social Media</h1>
             <p>Level Up Your Trading Game With Our Daily Content</p>
